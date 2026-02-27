@@ -1,0 +1,9 @@
+CREATE TABLE pub (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    area VARCHAR(255),
+    latitude DOUBLE PRECISION,
+    longitude DOUBLE PRECISION,
+    visited BOOLEAN DEFAULT FALSE,
+    visit_date DATE
+);

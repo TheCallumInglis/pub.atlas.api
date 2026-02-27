@@ -1,0 +1,27 @@
+meta {
+  name: Add Pub
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{BASE_URL}}/pubs
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Tiles Bar & Bistro",
+    "area": "Edinburgh New Town",
+    "latitude": "55.9536844",
+    "longitude": "-3.1946081",
+    "visited": true,
+    "visit_date": "2026-02-27"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
