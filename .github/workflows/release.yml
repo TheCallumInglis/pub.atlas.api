@@ -33,7 +33,6 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Set up JDK 21
-        if: steps.version.outputs.VERSION != ''
         uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -61,4 +60,5 @@ jobs:
             APP_VERSION=${{ github.ref_name }}
           tags: |
             ghcr.io/thecalluminglis/pub.atlas.api:${{ github.ref_name }}
+            ghcr.io/thecalluminglis/pub.atlas.api:v${{ steps.version.outputs.VERSION }}
             ghcr.io/thecalluminglis/pub.atlas.api:latest
