@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.2...v1.0.3) (2026-02-28)
+
+
+### Bug Fixes
+
+* Too many v's in version! ([1c41b6b](https://github.com/TheCallumInglis/pub.atlas.api/commit/1c41b6b5a1f91cd1e02869f3c42371010df534cd))
+
 ## [1.0.2](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.1...v1.0.2) (2026-02-28)
 
 
