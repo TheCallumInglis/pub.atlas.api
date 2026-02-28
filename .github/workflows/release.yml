@@ -60,5 +60,5 @@ jobs:
             APP_VERSION=${{ github.ref_name }}
           tags: |
             ghcr.io/thecalluminglis/pub.atlas.api:${{ github.ref_name }}
-            ghcr.io/thecalluminglis/pub.atlas.api:v${{ steps.version.outputs.VERSION }}
+            ghcr.io/thecalluminglis/pub.atlas.api:${{ steps.version.outputs.VERSION }}
             ghcr.io/thecalluminglis/pub.atlas.api:latest
