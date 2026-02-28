@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.1...v1.0.2) (2026-02-28)
+
+
+### Bug Fixes
+
+* Tag image with semantic version ([7be6e8a](https://github.com/TheCallumInglis/pub.atlas.api/commit/7be6e8a3dfd94f51d45200359c6dba880cd33006))
+
 ## [1.0.1](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.0...v1.0.1) (2026-02-28)
 
 
