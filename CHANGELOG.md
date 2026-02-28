@@ -1,0 +1,18 @@
+# 1.0.0 (2026-02-28)
+
+
+### Bug Fixes
+
+* Better import example ([ba044be](https://github.com/TheCallumInglis/pub.atlas.api/commit/ba044be580c5cfc27845a774e4e02f36e64de2c9))
+
+
+### Features
+
+* Adds (very) basic auth ([94df1bc](https://github.com/TheCallumInglis/pub.atlas.api/commit/94df1bc01111cddf8756e8e1695ad5f45cc094de))
+* Adds /healthcheck ([9a58071](https://github.com/TheCallumInglis/pub.atlas.api/commit/9a58071b83788a61c4c066f9972112090d4024d0))
+* Adds Dockerfile & GH Actions ([c774864](https://github.com/TheCallumInglis/pub.atlas.api/commit/c7748649c59b45e851237a9acd4ac737e0840fd1))
+* Adds Google Maps / Takeout Import Util ([a342151](https://github.com/TheCallumInglis/pub.atlas.api/commit/a3421510bd58b09bd622c9e6431bdea6f98c15d3))
+* Adds Swagger; Bumps to v21; ([3eda483](https://github.com/TheCallumInglis/pub.atlas.api/commit/3eda483bc24dbf6336bc40fd1672b360a13abe3e))
+* Initial Commit; GET/POST /pubs with Postgresql ([d0fe92a](https://github.com/TheCallumInglis/pub.atlas.api/commit/d0fe92aadb282e964d00b38500d0348795ed8db9))
+* Minimal /stats endpoint ([3b5697d](https://github.com/TheCallumInglis/pub.atlas.api/commit/3b5697d52270919f33cb3aa59b83c7e5fb3ae667))
+* Semantic Versioning ([4822d6f](https://github.com/TheCallumInglis/pub.atlas.api/commit/4822d6f95ddd4bd25ee6c47f875659b440259883))
