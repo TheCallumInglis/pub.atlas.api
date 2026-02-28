@@ -1,8 +1,8 @@
-package com.calluminglis;
+package com.calluminglis.pubatlas.resource;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class GreetingResourceIT extends GreetingResourceTest {
+class HealthCheckResourceIT extends HealthCheckResourceTest {
     // Execute the same tests but in packaged mode.
 }
