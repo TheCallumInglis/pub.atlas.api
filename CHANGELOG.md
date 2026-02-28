@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.3...v1.0.4) (2026-02-28)
+
+
+### Bug Fixes
+
+* Injest APP_VERSION as semantic release version ([6e72df9](https://github.com/TheCallumInglis/pub.atlas.api/commit/6e72df908ed241e417d47a6270397df59d7cd07f))
+
 ## [1.0.3](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.2...v1.0.3) (2026-02-28)
 
 
