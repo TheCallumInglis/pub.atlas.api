@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "import": "node import-csv.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "csv-parse": "^6.1.0"
+  }
+}

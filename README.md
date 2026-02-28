@@ -26,3 +26,8 @@ A sandbox project to learn Quarkus and have fun with pub data.
 Bruno collection available [here](./bruno/pub.atlas.api/)
 
 Get Bruno: [https://www.getbruno.com/](https://www.getbruno.com/)
+
+## Google Maps Import Util  
+Extract your "Saved" list from Google Maps, via [Google Takeout](https://takeout.google.com/), and import it into Pub Atlas.
+
+See [scripts/README.md](./scripts/README.md) for usage instructions.
