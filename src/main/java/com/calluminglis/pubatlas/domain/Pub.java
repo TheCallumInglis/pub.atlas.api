@@ -8,6 +8,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Column;
 import java.time.LocalDate;
 
+import org.hibernate.type.ListType;
+
 @Entity
 public class Pub extends PanacheEntityBase {
 
@@ -27,4 +29,8 @@ public class Pub extends PanacheEntityBase {
     public boolean visited;
 
     public LocalDate visit_date;
+
+    public static long countAll() {
+        return count();
+    }
 }
