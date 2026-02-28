@@ -9,8 +9,8 @@ npm install
 
 npm run import -- \
   --file=pubs.csv \
-  --url=https://pub-atlas-api.sandbox.sitenotfound.co.uk/pubs \
-  --key=supersecret
+  --url=http://localhost:8080/pubs \
+  --key=dev-api-key
 ```
 
 ## Notes
