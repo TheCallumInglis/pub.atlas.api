@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.0...v1.0.1) (2026-02-28)
+
+
+### Bug Fixes
+
+* Singlular GH Action Workflow ([e57e829](https://github.com/TheCallumInglis/pub.atlas.api/commit/e57e8294730985d756eaaa5f81f658159d86a929))
+
 # 1.0.0 (2026-02-28)
 
 
