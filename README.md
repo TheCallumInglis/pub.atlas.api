@@ -27,6 +27,8 @@ Bruno collection available [here](./bruno/pub.atlas.api/)
 
 Get Bruno: [https://www.getbruno.com/](https://www.getbruno.com/)
 
+Swagger UI available at: [http://localhost:8080/q/swagger-ui/](http://localhost:8080/q/swagger-ui/)
+
 ## Google Maps Import Util  
 Extract your "Saved" list from Google Maps, via [Google Takeout](https://takeout.google.com/), and import it into Pub Atlas.
 
