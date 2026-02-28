@@ -2,8 +2,8 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*'
 
 permissions:
   contents: read
@@ -34,7 +34,12 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push
-        run: |
-          IMAGE=ghcr.io/thecalluminglis/pub.atlas.api
-          docker build -t $IMAGE:latest .
-          docker push $IMAGE:latest
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          build-args: |
+            APP_VERSION=${{ github.ref_name }}
+          tags: |
+            ghcr.io/thecalluminglis/pub.atlas.api:${{ github.ref_name }}
+            ghcr.io/thecalluminglis/pub.atlas.api:latest

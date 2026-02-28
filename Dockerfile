@@ -7,5 +7,8 @@ COPY target/quarkus-app/*.jar /work/
 COPY target/quarkus-app/app/ /work/app/
 COPY target/quarkus-app/quarkus/ /work/quarkus/
 
+ARG APP_VERSION
+ENV APP_VERSION=$APP_VERSION
+
 EXPOSE 8080
 CMD ["java", "-jar", "quarkus-run.jar"]
