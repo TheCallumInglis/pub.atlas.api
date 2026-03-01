@@ -21,6 +21,14 @@ A sandbox project to learn Quarkus and have fun with pub data.
 > [!IMPORTANT]  
 > Note: Dev Services will automatically start a PostgreSQL instance in a Docker container for you. Make sure you have Docker installed and running.
 
+### CORS env vars
+
+| Var | Description | Example |
+|-----|-------------|---------|
+|`CORS_ORIGINS`|Comma separated allowed origins|`http://localhost:5175,https://pub-atlas-ui`|
+|`CORS_METHODS`|Allowed HTTP methods|`GET,POST,PUT,DELETE,OPTIONS`|
+|`CORS_HEADERS`|Allowed request headers|`accept,authorization,content-type,x-api-key`|
+
 ## API Collection
 
 Bruno collection available [here](./bruno/pub.atlas.api/)

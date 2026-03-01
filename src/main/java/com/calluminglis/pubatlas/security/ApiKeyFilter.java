@@ -18,16 +18,20 @@ public class ApiKeyFilter implements ContainerRequestFilter {
 
     @Override
     public void filter(ContainerRequestContext requestContext) {
-        if (!requestContext.getMethod().equals("GET")) {
 
-            String header = requestContext.getHeaderString("X-API-Key");
+        String method = requestContext.getMethod();
 
-            if (header == null || !header.equals(apiKey)) {
-                requestContext.abortWith(
-                        Response.status(Response.Status.UNAUTHORIZED)
-                                .entity("Missing or invalid API key")
-                                .build());
-            }
+        if ("OPTIONS".equalsIgnoreCase(method) || "GET".equalsIgnoreCase(method)) {
+            return;
+        }
+
+        String header = requestContext.getHeaderString("X-API-Key");
+
+        if (header == null || !header.equals(apiKey)) {
+            requestContext.abortWith(
+                Response.status(Response.Status.UNAUTHORIZED)
+                    .entity("Missing or invalid API key")
+                    .build());
         }
     }
 }
