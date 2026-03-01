@@ -17,8 +17,5 @@ jobs:
           java-version: 21
           cache: maven
 
-      - name: Validate Maven wrapper
-        uses: gradle/actions/wrapper-validation@v3
-
       - name: Compile + test
         run: ./mvnw -B verify
