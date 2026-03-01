@@ -23,8 +23,16 @@ const records = parse.parse(file, {
   skip_empty_lines: true
 });
 
+const wait = (seconds) => {
+    return new Promise((resolve) => {
+      setTimeout(resolve, seconds * 1000)
+    });
+};
+
 async function run() {
   for (const row of records) {
+    await wait(1.5);
+
     if (!row.Title) continue;
 
     const payload = {
@@ -33,7 +41,8 @@ async function run() {
       latitude: null,
       longitude: null,
       visited: true,
-      visitDate: new Date().toISOString().split("T")[0]
+      visitDate: new Date().toISOString().split("T")[0],
+      googleMapsUrl: row.URL
     };
 
     try {

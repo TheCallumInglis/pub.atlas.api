@@ -6,7 +6,7 @@ import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 
 import com.calluminglis.pubatlas.domain.Pub;
-import com.calluminglis.pubatlas.domain.StatsResponse;
+import com.calluminglis.pubatlas.dto.StatsResponse;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
