@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.2.1...v1.3.0) (2026-03-01)
+
+
+### Features
+
+* Adds backfill missing geodata endpoint ([#5](https://github.com/TheCallumInglis/pub.atlas.api/issues/5)) ([7393182](https://github.com/TheCallumInglis/pub.atlas.api/commit/73931825d8f005e4ac8ba1700fc22f3980712fac))
+
 ## [1.2.1](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.2.0...v1.2.1) (2026-03-01)
 
 
