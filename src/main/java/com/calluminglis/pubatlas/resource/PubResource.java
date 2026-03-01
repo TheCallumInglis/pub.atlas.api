@@ -17,8 +17,6 @@ import org.jboss.logging.Logger;
 
 @Tag(name = "Pubs")
 @Path("/pubs")
-@Produces(MediaType.APPLICATION_JSON)
-@Consumes(MediaType.APPLICATION_JSON)
 public class PubResource {
     private static final Logger LOG = Logger.getLogger(PubResource.class);
 
@@ -26,12 +24,15 @@ public class PubResource {
     GeocodingService geocodingService;
 
     @GET
+    @Produces(MediaType.APPLICATION_JSON)
     @Operation(summary = "Get all pubs")
     public List<Pub> getAll() {
         return Pub.listAll();
     }
 
     @POST
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
     @Operation(summary = "Create a new pub", description = "Creates a new pub, attempts to lookup coordinates if not provided.")
     @Transactional
     public Pub create(Pub pub) {
@@ -60,6 +61,7 @@ public class PubResource {
     @POST
     @Path("/geocode-missing")
     @Produces(MediaType.APPLICATION_JSON)
+    @Operation(summary = "Reconcile missing geodata", description = "Attempts to populate missing lat/long data for pubs")
     @Transactional
     public GeocodeBackfillResponse geocodeMissing(@QueryParam("limit") @DefaultValue("20") int limit) {
         int safeLimit = Math.max(1, Math.min(limit, 20));
