@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.2.0...v1.2.1) (2026-03-01)
+
+
+### Bug Fixes
+
+* Always include swagger, even in prod, yikes ([26a76dc](https://github.com/TheCallumInglis/pub.atlas.api/commit/26a76dc8afbfb100110d6bcad206bd2a94042957))
+* PR Pipeline ([45e3f5f](https://github.com/TheCallumInglis/pub.atlas.api/commit/45e3f5fb735e76600ebc5f6d970d8acf7a10f255))
+
 # [1.2.0](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.1.0...v1.2.0) (2026-03-01)
 
 
