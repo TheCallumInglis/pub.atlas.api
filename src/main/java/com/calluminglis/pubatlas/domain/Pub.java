@@ -30,6 +30,9 @@ public class Pub extends PanacheEntityBase {
 
     public LocalDate visit_date;
 
+    @Column(nullable = true)
+    public String googleMapsUrl;
+
     public static long countAll() {
         return count();
     }

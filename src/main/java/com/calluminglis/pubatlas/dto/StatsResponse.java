@@ -1,4 +1,4 @@
-package com.calluminglis.pubatlas.domain;
+package com.calluminglis.pubatlas.dto;
 
 import java.util.Map;
 

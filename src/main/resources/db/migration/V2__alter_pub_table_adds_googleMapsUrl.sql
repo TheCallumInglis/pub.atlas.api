@@ -1,0 +1,2 @@
+ALTER TABLE pub ADD COLUMN
+    googleMapsUrl VARCHAR(255);
