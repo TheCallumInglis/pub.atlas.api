@@ -1,12 +1,14 @@
 package com.calluminglis.pubatlas.domain;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
+import io.quarkus.panache.common.Page;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Column;
 import java.time.LocalDate;
+import java.util.List;
 
 import org.hibernate.type.ListType;
 
@@ -35,5 +37,11 @@ public class Pub extends PanacheEntityBase {
 
     public static long countAll() {
         return count();
+    }
+
+    public static List<Pub> findMissingCoordinates(int limit) {
+        return find("latitude is null or longitude is null")
+                .page(Page.ofSize(limit))
+                .list();
     }
 }
