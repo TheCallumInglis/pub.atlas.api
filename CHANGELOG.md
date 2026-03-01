@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.4...v1.1.0) (2026-03-01)
+
+
+### Features
+
+* Adds geocoding via Nominatim (OSM); Tidies filestructure; ([cb99ef7](https://github.com/TheCallumInglis/pub.atlas.api/commit/cb99ef7e1402db895cf604f42856f4a456ae9483))
+
 ## [1.0.4](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.3...v1.0.4) (2026-02-28)
 
 
