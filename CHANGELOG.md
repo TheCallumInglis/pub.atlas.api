@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.1.0...v1.2.0) (2026-03-01)
+
+
+### Features
+
+* Adds PR GH Action for basic validation ([08c390f](https://github.com/TheCallumInglis/pub.atlas.api/commit/08c390ff1d4d260ec1daf2ef6dd200a986d22622))
+
 # [1.1.0](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.0.4...v1.1.0) (2026-03-01)
 
 
