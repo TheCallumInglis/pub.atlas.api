@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.3.0...v1.3.1) (2026-03-01)
+
+
+### Bug Fixes
+
+* Adds tests for POST /pubs/geocode-missing ([#6](https://github.com/TheCallumInglis/pub.atlas.api/issues/6)) ([eaa32ee](https://github.com/TheCallumInglis/pub.atlas.api/commit/eaa32eeff412ea2b357c03f9a7c75d8a0155f984))
+
 # [1.3.0](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.2.1...v1.3.0) (2026-03-01)
 
 
