@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.3.1...v1.4.0) (2026-03-05)
+
+
+### Features
+
+* Adds CORS setup via env vars ([#7](https://github.com/TheCallumInglis/pub.atlas.api/issues/7)) ([019d340](https://github.com/TheCallumInglis/pub.atlas.api/commit/019d3405a197f9bdd771eb3876436391d2dc754d))
+
 ## [1.3.1](https://github.com/TheCallumInglis/pub.atlas.api/compare/v1.3.0...v1.3.1) (2026-03-01)
 
 
